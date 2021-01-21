@@ -1,0 +1,6 @@
+POST https://wfyo9esrbf.execute-api.ap-northeast-2.amazonaws.com/prod/graphql
+Content-Type: application/graphql
+
+query GetTestMessage {
+  testMessage
+}
